@@ -9,7 +9,7 @@ img {
 }
 
 #header {
-
+	/*max-width: 83.5%;*/
 }
 
 #left-header {
@@ -41,17 +41,15 @@ button {
 #game-wrapper {
 	clear: both;
 	overflow: hidden;
-	/*border: 2px;*/
-	/*height: 100%;*/
 }
 
 /* eveything below is within #game-wrapper */
 
 .tile {
 	float: left;
-	width: 20%;
-	/*height: 30%;*/
-	padding: 10%; /* pad + box-sizing wont' increase the overall width */
+	width: 25%;
+	height: 30%;
+	padding: 5px; /* pad + box-sizing wont' increase the overall width */
 	box-sizing: border-box; /* so we don't increase the overall width */
 	position: relative;
 	border: 5px solid #fff;
